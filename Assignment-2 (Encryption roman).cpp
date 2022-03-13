@@ -11,9 +11,11 @@ using namespace std;
 
 int roman_to_arabic(){
     string roman_num;
-    int arabic_number {0}; // this should be the converted number at the end
+    int arabic_number {0};
+    // this should be the converted number at the end
     cout << "Enter roman number: ";
     cin >> roman_num;
+    
     while (true){
         if(roman_num[0] == 'M'){
             arabic_number += 1000;
@@ -79,14 +81,17 @@ int roman_to_arabic(){
         }
     }
     cout << arabic_number << endl;
+
     return arabic_number;
 }
 
 string arabic_to_roman(){
     int arabic_number;
     string roman_number;
+
     cout << "Enter arabic number: ";
     cin >> arabic_number;
+
     while (true) {
         if (arabic_number >= 1000) {
             roman_number += 'M';
@@ -119,20 +124,26 @@ string arabic_to_roman(){
 }
 int choices(){ // this should loop through the choices and display them until the user chooses 3 to exit
     int choice = 0;
+
     while(choice != 3){
         cout << "Enter 1 to convert from roman to arabic" << endl;
         cout << "Enter 2 to convert from arabic to roman" << endl;
         cout << "Enter 3 to exit: ";
         cin >> choice;
+
         if(choice == 1){
             roman_to_arabic();
         }
+
         else if(choice == 2){
             arabic_to_roman();
         }
     }
+
     return 0;
 }
 int main(){
+
     choices();
+
 }
