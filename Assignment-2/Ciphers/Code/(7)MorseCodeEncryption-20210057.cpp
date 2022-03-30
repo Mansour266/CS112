@@ -1,8 +1,8 @@
-//FCAI – Programming 1 – 2022 - Assignment 2
+//FCAI â€“ Programming 1 â€“ 2022 - Assignment 2
 //Program Name:Morse Code encryption.cpp
 // Program Description: This program should take letters and convert them to morse code and vise versa
 //Last Modification Date: 23/03/2022
-//Author and ID and Group: Adham Wael Mansour-20210057-Group A
+//Author and ID and Group: Adham Mansour-20210057-Group A
 
 
 #include <iostream>
