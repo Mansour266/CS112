@@ -2,7 +2,6 @@
 // Program Name: Rail-fence_cipher.cpp
 // Program Description: program to encrypt a text
 // Last Modification Date: 23/3/2022
-// Author: Mohamed Essam El-Din Hassan
 // ID: 20210579
 // Group: A
 #include <bits/stdc++.h>
