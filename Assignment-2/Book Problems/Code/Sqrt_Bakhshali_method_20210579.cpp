@@ -2,7 +2,6 @@
 // Program Name: Sqrt_Bakhshali_method.cpp
 // Program Description: square root using Bakhshali method.
 // Last Modification Date: 24/3/2022
-// Author: Mohamed Essam El-Din Hassan
 // ID: 20210579
 // Group: A
 #include <iostream>
