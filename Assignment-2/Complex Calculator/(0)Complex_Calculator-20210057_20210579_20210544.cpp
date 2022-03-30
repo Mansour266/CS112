@@ -1,12 +1,10 @@
-//FCAI – Programming 1 – 2022 - Assignment 2
+//FCAI â€“ Programming 1 â€“ 2022 - Assignment 2
 //Program Name:Complex Number Calculator
 /*
 Program Description:This program should take the real and imaginary parts of the two numbers along with the operand and make operations on them and print the result in format (a+bi)
 */
 //Last Modification Date: 23/03/2022
-//Author1 and ID and Group:Adham Wael Mansour-20210057-Group A
-//Author2 and ID and Group:Yousif Mostafa mohamed (20210544)
-//Author3 and ID and Group:Mohamed Essam El-Deen (20210579)
+
 
 #include <iostream>
 #include <string>
